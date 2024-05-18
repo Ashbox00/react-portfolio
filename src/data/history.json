@@ -1,0 +1,12 @@
+[
+    {
+        "role": "Software Engineer Intern",
+        "organization": "USGS",
+        "startDate": "June, 2023",
+        "endDate": "December, 2023",
+        "description": "Developed an interactive website for monitoring seismic stations, featuring a dynamic map interface. Implemented functionality for users to add, delete, and modify stations, enhancing real-time tracking and management of seismic data",
+        "imageSrc": "usgs.png"
+        
+
+    }
+]

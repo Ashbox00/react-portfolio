@@ -1,0 +1,32 @@
+[
+    {
+        "title": "HTML",
+        "imageSrc": "html.png"
+
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "css.png"
+
+    },
+    {
+        "title": "JS",
+        "imageSrc": "js.png"
+
+    },
+    {
+        "title": "C++",
+        "imageSrc": "c++.png"
+
+    },
+    {
+        "title": "Python",
+        "imageSrc": "python.png"
+
+    },
+    {
+        "title": "Flask",
+        "imageSrc": "flask.png"
+
+    }
+]

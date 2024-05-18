@@ -1,0 +1,9 @@
+[
+    {
+        "title": "Project 1",
+        "imageSrc": "project.png",
+        "description": "This is a project",
+        "skills": ["1","2","3"],
+        "source": "github.com"
+    }
+]
