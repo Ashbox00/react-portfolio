@@ -1,0 +1,113 @@
+@import "../../vars.css";
+
+.container{
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 73px;
+    position: relative;
+
+    
+}
+.title{
+    color: var(--color-text);
+    font-size:50px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 14px;
+    margin-left:50px;
+    margin-right:50px;
+
+    
+
+}
+
+
+.projectCard{
+    display:flex;
+    gap: 60px;
+    width:30%;
+    height:60%;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    background:rgba(0,0,0,0.07);
+    min-height: 750px;
+    background-image: linear-gradient(0deg,
+    rgba(165,215,232,0.42)0%,
+    rgba(255,255,255,0)60%);
+    background-size:0 100%;
+    background-repeat: no-repeat-y;
+    transition: 0.1s;
+    
+}
+.projectCard:hover{
+    background-size: 60% 100%;
+}
+.projectCard img{
+    border-radius:100%;
+    width: 350px;
+    height: 350px;
+
+}
+.projectCard a{
+    text-decoration: none;
+}
+
+.description{
+    display:flex;
+    font-size:21px;
+    font-family: var(--font-roboto);
+
+    margin-right:25%;
+    flex-wrap:wrap;
+    margin-left:25%;
+    text-align:center;
+}
+.description h3{
+    font-size:23px;
+}
+
+.topBlur{
+    position: absolute;
+    width: 35vw;
+    height: 35vw;
+    min-width: 350px;
+    min-width: 350px;
+    top: 900px;
+    left:-15vw;
+    border:764px;
+    border-radius:100%;
+    background: rgba(136, 51,30, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+
+    
+    animation-name: lavalamp;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes lavalamp{
+    0% {
+        transform: translate(0, -0px);
+    }
+    50%{
+        transform: translate(0, -600px);
+        
+    }
+    100% {
+        transform:translate(0,-0px);
+    }
+}
+

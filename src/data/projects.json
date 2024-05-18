@@ -1,9 +1,23 @@
 [
     {
-        "title": "Project 1",
-        "imageSrc": "project.png",
-        "description": "This is a project",
-        "skills": ["1","2","3"],
+        "title": "Drift Racer",
+        "imageSrc": "cargame.png",
+        "description": "Dodge Incoming Traffic As you try to get the hiest score in a fast pace racing game",
+        "skills": ["C++","Graphics","Game Mechanics"],
+        "source": "github.com"
+    },
+    {
+        "title": "Dots N Lines",
+        "imageSrc": "dotsnlines.png",
+        "description": "An Interactive background",
+        "skills": ["C++","Graphics","Graphic Design"],
+        "source": "github.com"
+    },
+    {
+        "title": "Personal React Portfolio",
+        "imageSrc": "portfolio.png",
+        "description": "Portfolio made in React",
+        "skills": ["React","FullStack","Grapic Design"],
         "source": "github.com"
     }
 ]
